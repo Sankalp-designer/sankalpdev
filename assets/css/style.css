@@ -6258,7 +6258,6 @@ img {
   border: 0;
   vertical-align: middle;
   max-width: 100%;
-  height: auto;
 }
 
 svg:not(:root) {
@@ -14891,8 +14890,7 @@ figcaption {
 -----------------------------*/
 
 .inner img {
-  max-width: 200px;
-  height: auto;
+  max-width: 300px;
 }
 
 .rn-service {
@@ -18948,6 +18946,11 @@ div#featured-project-carousel {
 /*---------------------------
     Portfolio Area Styles 
 -----------------------------*/
+
+.rn-portfolio{
+  cursor: pointer;
+}
+
 .rn-portfolio,
 .rn-blog {
   text-align: left;
@@ -18989,8 +18992,6 @@ div#featured-project-carousel {
 .rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
   width: 100%;
-  transition: var(--transition);
-  height: auto;
   object-fit: cover;
 }
 
@@ -19000,15 +19001,6 @@ div#featured-project-carousel {
   .rn-blog .inner .thumbnail a img {
     height: inherit;
   }
-}
-
-.rn-portfolio .inner .thumbnail a video,
-.rn-blog .inner .thumbnail a video {
-  border-radius: 10px;
-  height: 100%;
-  transition: var(--transition);
-  object-fit: cover;
-  width: 100%;
 }
 
 @media only screen and (max-width: 479px) {
@@ -19137,15 +19129,6 @@ div#featured-project-carousel {
   opacity: 1;
 }
 
-.rn-portfolio:hover .thumbnail a img,
-.rn-blog:hover .thumbnail a img {
-  transform: scale(1.1);
-}
-
-.rn-portfolio:hover video,
-.rn-blog:hover video {
-  transform: scale(1.1);
-}
 
 @media only screen and (max-width: 767px) {
   .mt_dec-sm--60 {
