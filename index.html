@@ -310,12 +310,13 @@
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="rn-portfolio" id="redirectDiv-1" data-toggle="modal"
+                            data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-01.jpg"
-                                            alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/barter-image.jpg"
+                                            alt="Personal Portfolio Images" height="145px">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -336,12 +337,12 @@
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="rn-portfolio" id="redirectDiv-2" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-02.jpg"
-                                            alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/sociopedia-image.jpg"
+                                            alt="Personal Portfolio Images" height="145px">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -361,12 +362,12 @@
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="rn-portfolio" id="redirectDiv-3" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-03.jpg"
-                                            alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/mylook-image.jpg"
+                                            alt="Personal Portfolio Images" height="145px">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -387,12 +388,12 @@
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
                         class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
+                        <div class="rn-portfolio" id="redirectDiv-4" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-04.jpg"
-                                            alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/admin-panel-image.jpg"
+                                            alt="Personal Portfolio Images" height="145px">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -441,7 +442,8 @@
                                 <span>Web developer</span>
                             </div>
                             <div class="description">
-                                <p>Let's create something amazing together! Whether you have a project in mind or just need a
+                                <p>Let's create something amazing together! Whether you have a project in mind or just
+                                    need a
                                     consultation for your product, feel free to reach out.
                                 </p>
                                 <span class="telegram">Telegram: <a>@SankalpDutt</a></span>
@@ -508,6 +510,14 @@
                                         </div>
                                     </div>
                                 </form>
+
+
+
+
+
+
+
+
                             </div>
                         </div>
                     </div>
@@ -550,6 +560,25 @@
     <!-- End Footer Area -->
 
     <!-- JS ============================================ -->
+
+    <script>
+        document.getElementById('redirectDiv-1').addEventListener('click', function () {
+            window.open('https://ebartersystem.netlify.app/', '_blank');
+        });
+
+        document.getElementById('redirectDiv-2').addEventListener('click', function () {
+            window.open('https://sociopedia-sankalp.netlify.app/', '_blank');
+        });
+
+        document.getElementById('redirectDiv-3').addEventListener('click', function () {
+            window.open('https://mylookweb.netlify.app/', '_blank');
+        });
+
+        document.getElementById('redirectDiv-4').addEventListener('click', function () {
+            window.open('https://admins-dashboard-react.netlify.app/', '_blank');
+        });
+    </script>
+
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/vendor/modernizer.min.js"></script>
     <script src="assets/js/vendor/feather.min.js"></script>
